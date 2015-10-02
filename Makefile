@@ -69,7 +69,7 @@ howto-site:
 
 .PHONY: server
 server:
-	@rm -rf public
+	#@rm -rf public
 	@hugo server --watch --verbose -D -F
 	@#rm -f .site-built
 	@#hugo server --config=$(CONFIG) --watch=true

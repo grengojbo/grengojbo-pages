@@ -10,7 +10,7 @@ theme='clean-site'
 baseurl       = "http://grengojbo.github.io"
 canonifyurls  = true
 languageCode  = "ru-ru"
-title         = "Тестовый Блог"
+title         = "Заметки grengojbo"
 paginate      = 10
 
 [params]

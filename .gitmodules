@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:grengojbo/grengojbo.github.io.git
+[submodule "themes/clean-site"]
+	path = themes/clean-site
+	url = https://github.com/mjfh/clean-site.git

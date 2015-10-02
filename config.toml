@@ -1,0 +1,76 @@
+theme='clean-site'
+#
+# Test site configuration
+#
+# -- jordan@teddy-net.com
+#
+# $Id$
+#
+
+baseurl       = "http://grengojbo.github.io"
+canonifyurls  = true
+languageCode  = "ru-ru"
+title         = "Тестовый Блог"
+paginate      = 10
+
+[params]
+  Title       = "Реклама в Wi-Fi сетях навигационных панелях"
+  Description = "Скоро будет контент :)"
+  DateForm    = "Mon, Jan 2, 2006"
+  Author      = "Oleg Dolya"
+  email       = "oleg.dolya@gmail.com"
+  contact     = "oleg.dolya@gmail.com"
+  Ganalytics  = "XX-00000000-0"
+
+# [params.debate]
+#   provider  = "<your-debate-provider>"
+#   forumid   = "<your-forum-id>"
+#   script    = "debate"
+
+# HTML <meta> settings
+# [params.meta]
+#   author      = "Jordan Hrycaj"
+#   description = "Startbootstrap Clean Blog"
+#   keywords    = "Startbootstrap Clean Blog"
+
+# Custom taxonomy labels
+# [params.label]
+#   Categories  = "Cat:"
+#   Tags        = "Tag:"
+
+# [params.image]
+#   home        = "home.png"
+#   post        = "post.png"
+#   contact     = "contact.png"
+#   about       = "about.png"
+#   favicon     = "favicon.ico"
+
+# [[params.script]]
+#   name = "clean-blog.custom"
+# [[params.script]]
+#   name = "other-custom-script"
+
+[[params.social]]
+  title = "github"
+  url = "//github.com/grengojbo"
+[[params.social]]
+  title = "bitbucket"
+  url = "//bitbucket.org/grengojbo"
+[[params.social]]
+  title = "linkedin"
+  url = "//www.linkedin.com/profile/view?id=AAMAAAqLLJQB9Klu5TS-b5zNmwRsP8heXQ3L6m0"
+
+#[[menu.main]]
+#  name = "home"
+#  url = "/"
+#  weight = -200
+[[menu.main]]
+  name = "Archives"
+  url = "/post/"
+  weight = -180
+
+# Local Variables:
+# mode: toml
+# comment-column: 0
+# comment-start: "#"
+# End:
